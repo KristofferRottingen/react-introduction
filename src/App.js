@@ -1,17 +1,9 @@
 import React from "react";
-import "./App.css";
-import Heading from "./components/Heading";
-import Paragraph from "./components/Paragraph";
-import List from "./components/List";
+import "./sass/style.scss";
+import Home from "./components/Home";
 
 function App() {
-    return (
-        <div className="container">
-            <Heading />
-            <Paragraph />
-            <List />
-        </div>
-    );
+    return <Home />
 }
 
 export default App;
